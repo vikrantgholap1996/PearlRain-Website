@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+           <style>
+              body{
+                font-family: "Poppins", sans-serif;
+              }
+              .nav-link {
+        font-size: 16px;
+        color: #000000;
+        margin: 0 1rem;
+    }
+    .blue-bg-btn {
+        background: #605FFC;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 32px 10px 32px;
+        border-radius: 32px;
+        margin-left: 1rem;
+    }
+
+    .navbar-section .nav-link.active{
+        color: #8e2975;
+    }
+
+                  .contact {
+                    position: relative;
+                    font-family: 'poppins',sans-serif;
+                    background-color: #591757;
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    
+                    /* Optional: Just for visualization */
+                  }
+                  .blue-bg-btn- {
+                    background: #ffffff;
+                    color: #8B2D88;
+                    text-decoration: none;
+                    padding: 10px 32px 10px 32px;
+                    border-radius: 32px;
+                    margin-left: 3rem;
+                    display: inline-block;
+                    /* Ensure button and text appear on the same line */
+                  }
+                  .breadcrumb-item{
+                    padding-left: 30px;
+                
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: #8B2D88;
+                  }
+                  .breadcrumb-item active{
+                    opacity: 10px;
+                  }
+                  .contact_left{
+                    position: absolute;
+                    left:0;
+                  }
+                  .contact_right {
+                    position: absolute;
+                    right: 0;
+                    margin-top: -49px;
+                  }
+                  .contact-img{
+                    margin-left: -110px;
+                    margin-top: 46px;
+                  }
+                  .t1{
+                  
+                    font-family: 'Poppins',sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #8B2D88;
+
+                  }
+                  .t2{
+                    font-family: 'Poppins',sans-serif;
+                    font-size: 56px;
+                    font-weight: 700;
+                    line-height: 84px;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+
+                  }
+                  @media screen and (max-width: 768px)
+                  {
+                    .t2{
+                      font-size: 42px;
+                    }
+                    .mail{
+                      padding-top: 21px !important;
+                      padding-left: 130px !important;
+                      }
+                      .mail-text {
+                          margin-left: -32% !important;
+                          text-align: center;
+                          font-size: 16px !important;
+                      }
+                      .whatsapp{
+                      padding-top: 14px !important;
+                      padding-left: 125px !important;
+                      }
+                      .whatsapp-text{
+                        margin-left: -45% !important;
+                        text-align: center;
+                          font-size: 16px !important;
+                      }
+                  }
+                  .mt-3 {
+            margin-top: 1rem;
+          }
+                  .contact_content{
+                  position: relative;
+                    margin-top: 63px;
+                  padding-left: 47px;
+                  }
+
+                  
+                  .rect1, .rect2 {
+                  width: 90%;
+                  max-width: 546px;
+                  height: 30vw; 
+                  border-radius: 5%; 
+                  background: #ECEBFA;
+                  margin: 20px auto;
+                  position: relative;
+                }
+
+        .rect1 {
+            position:relative;
+            height: 207px; 
+            background: #ECEBFA;
+            border-radius: 24px;
+        }
+
+        .rect2 {
+            position:relative;
+            height: 207px; 
+            background: #ECEBFA; 
+            border-radius: 24px;
+        }
+        .mail{
+            padding-top: 78px;
+            padding-left: 55px;
+        }
+        .mail-text {
+            font-family: 'Poppins',sans-serif; 
+            font-weight: 500; 
+            font-size: 20px; 
+            line-height: 30px; 
+            letter-spacing: 0.02em; 
+            color: #8B2D88;
+            padding-top: 70px;
+            text-decoration: none;
+            margin: 0%;
+        }
+      
+        .whatsapp{
+            padding-top: 67px;
+            padding-left: 55px;
+        }
+        .whatsapp-text {
+          /* Set text color */
+          font-family: 'Poppins',sans-serif; 
+            font-weight: 500; 
+            font-size: 20px; 
+            line-height: 30px; 
+            letter-spacing: 0.02em; 
+            color: #8B2D88;
+            padding-top: 75px;
+            padding-left: 15px;
+          text-decoration: none; /* Remove underline */
+          margin: 0%;
+        }
+        .contact2_left{
+            position: absolute;
+            margin-top: 155px;
+            left: 0;
+        }
+        .contact2_right{
+            position: absolute;
+            margin-top: -167px;
+            right: 0;
+        }
+          
+          
+        .footer-section {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.copyright-text {
+    color: #414852;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.footer-menu-title {
+    color: #581E9D;
+    font-weight: bold;
+}
+
+.footer-menu-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-menu-link {
+    color: #414852;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 1rem;
+    display: block;
+}
+
+.newsletter-section h4 {
+    color: #414852;
+    font-size: 22px;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-input {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    background: #fff;
+    border: navajowhite;
+    padding: 15px 20px;
+    width: 65%;
+}
+
+.newsletter-input::placeholder {
+    color: #414852;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.newsletter-btn {
+    background: #605FFC;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    width: 35%;
+}
+
+.footer-social-link ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid #41485299;
+    padding: 1rem 0;
+}
+
+.footer-social-link li {
+    padding-left: 1rem;
+}
+
+.back-to-top-btn {
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 668px) {
+    .footer-menu {
+        padding: 1.5rem 0;
+    }
+
+    .footer-logo-module {
+        padding-left: 0;
+    }
+}
+          </style>
+    </head>
+    <body>
+        <header id="header"></header>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" style="color: #E491E1;
+            text-decoration-line: none ;">HOME</a></li>
+          <li class="breadcrumb-item active" aria-current="page" style="color: #8B2D88; text-decoration-line: underline;">CONTACT</li>
+        </ol>
+      </nav>
+      
+      <section class="contact">
+        
+        <div class="container">
+            <img src="./images/contact_left.png" class="contact_left">
+            <img src="./images/contact_right.png" class="contact_right">
+            
+            <div class="row">
+              <!-- Left Column with Image -->
+              <div class="col-md-6">
+                <img src="./images/contact.png" class="img-fluid" alt="Image" />
+              </div>
+              <!-- Right Column with Text, Button, Image, and Text -->
+              <div class="col-md-6 " style="margin-top: 60px;">
+                <div class="mt-3">
+                  <p>We Can’t Wait To Hear From You</p>
+                </div>
+                <div class="mt-3">
+                  <a href="tel:+917768003610" class="blue-bg-btn-">
+                    <img src="./images/call.png" /> +91 7768003610
+                  </a>
+                </div><br>
+                <div class="mt-3">
+                  <iframe
+        width="300"
+        height="94"
+        frameborder="0"
+        style="border:0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60494.615102630715!2d73.8567439200722!3d18.520430315540195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf7842c80f5f%3A0x5a0cb0c4c8a78080!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1647937486824!5m2!1sen!2sin"
+        allowfullscreen
+      ></iframe>
+                  </div>
+                <div class="mt-3">
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pune, Maharashtra, India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section><br><br>
+    <section class="get_in_touch">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="t1">
+                        GET IN TOUCH
+                    </div>
+                    <div class="t2">
+                        Your Optimization Journey<br> <span style="color:#8B2D88;"> Starts Here.</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./images/contact2_left.png" class="contact2_left">
+            <img src="./images/contact2_right.png" class="contact2_right">
+            <div class="row">
+                <!-- Left container -->
+                <div class="col-md-6">
+                    <div class= "rect1">
+                      
+                        <div class="row">
+                            <div class="col-3">
+                            <img src="./images/mail.png" class="mail">
+                            </div>
+                            <div class="col-9">
+                                <p class="mail-text order-last">
+                                  Send us an email at:<br>
+                                  <a href="mailto:priyamvada@pearlraindigital.net" style="text-decoration: none; word-break: break-word;">priyamvada@pearlraindigital.net</a>
+                                </p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right container -->
+                <div class="col-md-6">
+                    <div class="rect2">
+                      
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-3">
+                                    <img src="./images/whatsapp.png" class="whatsapp">
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="whatsapp-text">
+                                            <span style="color:#8B2D88;">Reach Out Via WhatsApp</span><br>
+                                            <a href="https://wa.me/917768003610"style="text-decoration: none;">+91 7768003610</a>
+                                          </div>                
+  
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br>  <br><br>
+
+        <section class="position-relative footer-section position-relative py-5">
+            <div class="back-to-top-btn" onclick="topFunction()" id="back-to-top" title="Go to top"><img
+                    src="images/Back-to-top.svg" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="footer-logo-module">
+                            <img src="images/site-logo.png" alt="">
+                            <p class="copyright-text">Copyright © 2024 </p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <div class="footer-menu">
+                            <h4 class="footer-menu-title">Services</h4>
+                            <ul class="footer-menu-list">
+                                <li><a href="#" class="footer-menu-link">Email Marketing</a></li>
+                                <li><a href="#" class="footer-menu-link">Campaigns</a></li>
+                                <li><a href="#" class="footer-menu-link">Branding</a></li>
+                                <li><a href="#" class="footer-menu-link">Offline</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <div class="footer-menu">
+                            <h4 class="footer-menu-title">About</h4>
+                            <ul class="footer-menu-list">
+                                <li><a href="#" class="footer-menu-link">Our Story</a></li>
+                                <li><a href="#" class="footer-menu-link">Benefits</a></li>
+                                <li><a href="#" class="footer-menu-link">Team</a></li>
+                                <li><a href="#" class="footer-menu-link">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row pt-md-5 pt-3">
+                    <div class="col-12 col-sm-6">
+                        <div class="newsletter-section">
+                            <h4>Subscribe to our monthly newsletter</h4>
+                            <div class="newsletter-form">
+                                <input type="text" class="newsletter-input" placeholder="Enter Email address" name="" id="">
+                                <a href="#" class="newsletter-btn">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12">
+                        <div class="footer-social-link">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.51665 2.63607H7.96599V0.111793C7.71594 0.0773953 6.856 0 5.85449 0C3.76481 0 2.33333 1.3144 2.33333 3.73019V5.95349H0.0273438V8.77544H2.33333V15.876H5.16057V8.7761H7.37329L7.72454 5.95415H5.15991V4.01C5.16057 3.19438 5.38019 2.63607 6.51665 2.63607Z"
+                                                fill="#414852" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.5526 1.881C18.8254 2.2 18.0505 2.41144 17.2426 2.51411C18.0737 2.01789 18.7081 1.23811 19.0063 0.298222C18.2314 0.760222 17.3758 1.08656 16.4641 1.26867C15.7283 0.485222 14.6796 0 13.5356 0C11.3161 0 9.52918 1.80156 9.52918 4.01011C9.52918 4.32789 9.55607 4.63344 9.62207 4.92433C6.28907 4.76178 3.33985 3.16433 1.35863 0.730889C1.01274 1.331 0.809848 2.01789 0.809848 2.75733C0.809848 4.14578 1.52485 5.37656 2.59063 6.08911C1.94651 6.07689 1.31463 5.88989 0.779293 5.59533C0.779293 5.60756 0.779293 5.62344 0.779293 5.63933C0.779293 7.58756 2.16896 9.20578 3.99129 9.57856C3.66496 9.66778 3.30929 9.71056 2.94018 9.71056C2.68351 9.71056 2.4244 9.69589 2.18118 9.64211C2.70063 11.2298 4.17463 12.397 5.92729 12.4349C4.56329 13.5019 2.8314 14.1448 0.956515 14.1448C0.627737 14.1448 0.312404 14.1301 -0.00292969 14.0898C1.77296 15.235 3.87763 15.8889 6.14729 15.8889C13.5246 15.8889 17.558 9.77778 17.558 4.48067C17.558 4.30344 17.5518 4.13233 17.5433 3.96244C18.339 3.39778 19.0075 2.69256 19.5526 1.881Z"
+                                                fill="#414852" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.99707 0H10.9971C13.7581 0 15.9971 2.239 15.9971 5V11C15.9971 13.761 13.7581 16 10.9971 16H4.99707C2.23607 16 -0.00292969 13.761 -0.00292969 11V5C-0.00292969 2.239 2.23607 0 4.99707 0ZM10.9971 14.5C12.9271 14.5 14.4971 12.93 14.4971 11V5C14.4971 3.07 12.9271 1.5 10.9971 1.5H4.99707C3.06707 1.5 1.49707 3.07 1.49707 5V11C1.49707 12.93 3.06707 14.5 4.99707 14.5H10.9971Z"
+                                                fill="#414852" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M3.99707 8C3.99707 5.791 5.78807 4 7.99707 4C10.2061 4 11.9971 5.791 11.9971 8C11.9971 10.209 10.2061 12 7.99707 12C5.78807 12 3.99707 10.209 3.99707 8ZM5.49707 8C5.49707 9.378 6.61907 10.5 7.99707 10.5C9.37507 10.5 10.4971 9.378 10.4971 8C10.4971 6.621 9.37507 5.5 7.99707 5.5C6.61907 5.5 5.49707 6.621 5.49707 8Z"
+                                                fill="#414852" />
+                                            <circle cx="12.2967" cy="3.70097" r="0.533" fill="#414852" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="./script/script.js"></script>
+        <script src="header.html"></script>
+    </body>
+    </html>
